@@ -1,0 +1,15 @@
+.hair-styles-wrapper {
+    display: flex;
+    flex-direction: column;
+    // background-color: rgb(250, 228, 199);
+    .syle-selection{
+        height: 26vh;
+        background-color: rgb(96, 194, 197);
+        transition: 0.1s ease-in;
+
+        &:hover{
+            background-color: rgb(88, 171, 173);
+
+        }
+    }
+}

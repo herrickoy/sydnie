@@ -1,0 +1,74 @@
+.homepage-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(250, 228, 199);
+        
+
+    .center-column {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        .create-appointment {
+            .customer-type{
+                font-weight: 900;
+            }
+            p {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                font-size: 2em;
+            }
+
+            .inputs{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                input{
+                    height: 3.5vh;
+                    margin: 10px;
+                }
+            }
+            .calendar-wrapper {
+                display: flex;
+                justify-content: center;
+                .react-calendar{
+                    width: 100vw;
+                    max-width: 600px;
+                    border: 1px solid #000000;
+                    border-radius: 3px;
+                    margin-bottom: 10px;
+
+                    .react-calendar__month-view__days{
+                        max-width: 90%;
+                        flex-basis: 100%;
+                    }
+                }
+            }
+
+        }
+
+        .carousel-wrapper {
+            display: flex;
+
+            
+            
+
+            .carousel {
+                .slider-container {
+                    width: 100%;
+                    height: 100%;
+                    
+                    position:fixed;
+                    top:0;
+                    left:0;
+                    
+                }
+                
+            }
+        }
+        
+    }
+}
