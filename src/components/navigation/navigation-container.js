@@ -39,6 +39,7 @@ const NavigationComponent = props => {
                 (801) 369-9573
                 </div> 
 
+                <div/>
 
                 <div className="email">
                 sydnieherrick@gmail.com
@@ -55,9 +56,9 @@ const NavigationComponent = props => {
                       <div className="nav-link-wrapper">
                           <NavLink to="/pricing" activeClassName="nav-link-active">Pricing</NavLink>
                       </div>
-  
+
                       <div className="nav-link-wrapper">
-                          <NavLink to="/styles" activeClassName="nav-link-active">Styles</NavLink>
+                          <NavLink to="/portfolio" activeClassName="nav-link-active">Portfolio</NavLink>
                       </div>
   
                       <div className="nav-link-wrapper">

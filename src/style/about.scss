@@ -1,0 +1,42 @@
+.about-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(250, 228, 199);
+
+
+
+    .sydnie-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50vw;
+
+        img {
+            max-height: 80vh;
+            max-width: 45vw;
+            padding: 20px 0px 20px 20px;
+        }
+    }
+
+    .about-her {
+        display: flex;
+        flex-direction: column;
+        max-width: 50vw;
+        
+        h1 {
+            display: flex;
+            justify-content: center;
+            font-size: 2.5em;
+            margin: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            padding-bottom: 10px;
+            font-weight: 700;
+            margin: 10px;
+            color: rgb(50, 48, 48);
+        }
+    }
+}

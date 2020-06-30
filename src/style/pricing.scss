@@ -1,0 +1,49 @@
+.pricing_background_wrapper {    
+    background-color: rgb(250, 228, 199);
+    
+
+
+    .hair_styles_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+
+        
+        
+        
+        h1 {
+            padding-top: 10px;
+            font-size: 6em;
+            border-bottom: 4px solid black;
+        }
+
+
+            
+        .services {
+            font-size: 2em;
+            padding-top: 20px;
+            padding-bottom: 10px;
+            display: grid;
+            grid-template-columns: 47vw 5vw 47vw;
+
+            .service {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .symb {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+            }
+
+            .price {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+}
