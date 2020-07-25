@@ -11,7 +11,7 @@ export default class Portfolio extends Component {
 
     render() {
         return (
-            <div>
+            <div className="portfolio-wrapper">
                 Portfolio
             </div>
         )
