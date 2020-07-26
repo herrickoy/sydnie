@@ -12,7 +12,12 @@ export default class Portfolio extends Component {
     render() {
         return (
             <div className="portfolio-wrapper">
-                Portfolio
+                <h1>Portfolio</h1>
+                <div className="potfolio-details">
+                    Timanogos
+                    AVEDA
+                </div>
+
             </div>
         )
     }
