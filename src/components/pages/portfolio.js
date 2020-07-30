@@ -14,8 +14,8 @@ export default class Portfolio extends Component {
             <div className="portfolio-wrapper">
                 <h1>Portfolio</h1>
                 <div className="potfolio-details">
-                    Timanogos
-                    AVEDA
+                    Timanogos Hgh school
+                    AVEDA Institute Provo
                 </div>
 
             </div>
